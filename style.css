@@ -1,0 +1,87 @@
+body {
+    background-color: #00570c;
+    color: #fff0f0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #mainContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(241, 255, 241, 0.816);
+    padding: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    color:#aafba2;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  input,
+  select,
+  button {
+    padding: 10px;
+  }
+  
+  button {
+    background-color: #00ff597d;
+    border: none;
+    color: #dcd8d8;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #00ff2a;
+  }
+  
+  #mealPlanDisplay {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin: 20px;
+  }
+  
+  #mealPlanDisplay div {
+    padding: 20px;
+    background-color: #aafba2;
+    box-shadow: 0 0 10px 5px #b6e0f4;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th,
+  td {
+    border: 1px solid #000000;
+    padding: 20px;
+    text-align: center;
+    vertical-align: top;
+  }
+  
+  img {
+    border-radius: 20px;
+    object-fit: cover;
+  }
+  
+  a {
+    color: #00065c;
+    ;
+  }
